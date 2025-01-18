@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.2" id="{637B9571-FA62-4860-8F00-8C6DEBEB51BF}" target="Five">
+  <metadata>
+    <name>Liberty City Preservation Project 地名显示汉化</name>
+    <version>
+      <major>1</major>
+      <minor>0</minor>
+    </version>
+    <author>
+      <displayName>will258012</displayName>
+      <actionLink>https://github.com/will258012</actionLink>
+    </author>
+    <description>
+    <![CDATA[此包为使用Liberty City Preservation Project模组的简体中文用户恢复并汉化了地名显示。]]>
+    </description>
+    <licence footerLink="http://github.com/will258012/LCPP_GEO_CHS" footerLinkTitle="Github">
+		<![CDATA[查看许可或改进翻译]]>
+	</licence>
+</metadata>
+<colors>
+<headerBackground useBlackTextColor="False">$FF23366A</headerBackground>
+<iconBackground>$FF3b5998</iconBackground>
+</colors>
+  <content>
+    <archive path="update\x64\dlcpacks\liberty_city\dlc.rpf" createIfNotExist="False" type="RPF7">
+      <archive path="x64\data\lang\chinesesimpdlc.rpf" createIfNotExist="True" type="RPF7">
+        <add source="global.gxt2">global.gxt2</add>
+      </archive>
+    </archive>
+  </content>
+</package>
