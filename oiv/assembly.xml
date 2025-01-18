@@ -18,8 +18,8 @@
 	</licence>
 </metadata>
 <colors>
-<headerBackground useBlackTextColor="False">$FF23366A</headerBackground>
-<iconBackground>$FF3b5998</iconBackground>
+  <headerBackground useBlackTextColor="False">$FF23366A</headerBackground>
+  <iconBackground>$FF3b5998</iconBackground>
 </colors>
   <content>
     <archive path="update\x64\dlcpacks\liberty_city\dlc.rpf" createIfNotExist="False" type="RPF7">
